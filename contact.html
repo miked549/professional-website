@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Davis Contact Info</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div style="text-align: center; margin-top: 200px;">
+    <h1>Contact Info</h1>
+    <h2>Michael Davis</h2>
+    <center>
+        <h2><a href="tel:9545369753">(954) 536-9753</a></h2>
+        <h2><a href="mailto:miked549@gmail.com">miked549@gmail.com</a></h2>
+        <br>
+        <button class="btn-secondary" 
+        style="padding: 15px 30px; font-size: 18px; width: 200px; border-radius: 10px;" 
+        onclick="document.getElementById('contactForm').style.display='block'">
+    Contact Me
+</button>
+    </center>
+</div>
+    
+    <div id="contactForm" style="display:none; padding: 20px; background: aliceblue; border-radius: 5px; margin-top: 20px;">
+        <h3>Send me a message:</h3>
+        <form action="mailto:miked549@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Send">
+            <input type="button" value="Cancel" onclick="document.getElementById('contactForm').style.display='none'">
+        </form>
+    </div>
+</body>
+</html>

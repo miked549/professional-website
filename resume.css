@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: antiquewhite;
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1em;
+}
+
+.contact-info a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.section-title {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    border: 1px solid black;
+}
+
+div {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: antiquewhite; /* Set background to antiquewhite */
+}
+
+h3 {
+    color: black;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    list-style-type: disc;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .section-title {
+        font-size: 1.3em;
+    }
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap into a new row */
+    padding: 0; /* Removes default padding */
+    list-style: none; /* Removes bullet points */
+}
+
+.skills li {
+    width: 50%; /* Each item takes up half the width */
+    box-sizing: border-box; /* Ensures padding and borders are included in the total width */
+    padding: 5px; /* Adds some spacing between items */
+}
+

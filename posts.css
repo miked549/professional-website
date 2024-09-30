@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 10%;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-image {
+    border-radius: 50%;
+    max-width: 30%;  /* Limit the image to 75% of its container */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;  /* Center the image */
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+}
+
+.btn-secondary {
+    background-color: darkcyan;
+    color: aliceblue;
+}
+
