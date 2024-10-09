@@ -83,3 +83,24 @@ a {
 
 }
 
+/* Target the contact page specifically using the ID "contact-page" */
+#contact-page {
+    height: 100%; /* Ensures the page is full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Center the contact container */
+#contact-page .contact-container {
+    text-align: center;
+}
+
+/* Additional styles for the contact info section */
+#contact-page .contact-info {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Optional card-like effect */
+}
